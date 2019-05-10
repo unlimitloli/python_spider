@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>dec46dd5-5bd2-40ff-a24a-51bfede5886c</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>python_spider.py</StartupFile>
+    <StartupFile>debuglog.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -23,6 +23,15 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="debuglog.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="get.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="post.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="python_spider.py" />
   </ItemGroup>
   <ItemGroup>
