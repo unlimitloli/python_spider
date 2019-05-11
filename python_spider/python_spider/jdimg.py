@@ -29,6 +29,7 @@ def down_img(src, page):
         if hasattr(e, 'reasn'):
             print('error reasen: ', e.reason)
 
+
 src = 'https://list.jd.com/list.html?cat=9987,653,655&page='
 
 if not os.path.exists('./jbimg'):
