@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>dec46dd5-5bd2-40ff-a24a-51bfede5886c</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>debuglog.py</StartupFile>
+    <StartupFile>jdimg.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -23,10 +23,19 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="common.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="debuglog.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="get.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="jdimg.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="login.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="post.py">
